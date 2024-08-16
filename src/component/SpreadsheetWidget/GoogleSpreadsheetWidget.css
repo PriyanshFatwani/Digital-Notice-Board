@@ -1,0 +1,47 @@
+.google-spreadsheet-widget {
+  background: #9a348e;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.google-spreadsheet-widget .MuiTypography-root {
+  color: #ffffff;
+}
+
+.google-spreadsheet-widget .MuiTextField-root {
+  color: #ffffff;
+}
+
+.google-spreadsheet-widget .MuiButton-root {
+  color: #ffffff !important;
+  background-color: #ff4081 !important;
+}
+
+.google-spreadsheet-widget .MuiInputBase-input {
+  color: #ffffff;
+}
+
+.google-spreadsheet-widget .MuiInputBase-input::placeholder {
+  color: #ffffff !important;
+  opacity: 1;
+}
+
+.google-spreadsheet-widget .MuiOutlinedInput-root {
+  &.Mui-focused fieldset {
+    border-color: #ffffff !important;
+  }
+}
+
+.google-spreadsheet-widget .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff !important;
+}
