@@ -1,0 +1,49 @@
+.poll-widget {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: #ff9f1c;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.poll-widget .MuiRadio-root {
+  color: #ffffff;
+}
+
+.poll-widget .MuiTextField-root,
+.poll-widget .MuiButton-root {
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+  color: #ffffff;
+}
+
+.poll-widget .MuiTypography-root {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+.poll-widget .MuiFormControlLabel-root {
+  font-size: 0.75rem;
+  color: #ffffff;
+}
+
+.poll-widget .MuiFormControl-root {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.poll-widget .vote-button {
+  margin-top: 20px;
+  color: #ffffff !important;
+  background-color: #ffbf69 !important;
+  transition: background-color 0.3s ease, color 0.3s ease !important;
+}
+.poll-widget .vote-button:hover {
+  background-color: #e91e63 !important;
+  color: #fff !important;
+}
