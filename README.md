@@ -55,7 +55,7 @@ Once installed, open your browser, and you will see the Digital Notice Board as 
 
 ## Screenshots
 
-![Screenshot](screenshots/extensionss.png)
+![Screenshot](extensionss.png)
 
 ## Contact
 
